@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="130dip"
+    android:layout_height="fill_parent"
+    android:padding="5dip"
+    android:id="@+id/popup">
+
+<LinearLayout
+	android:orientation="horizontal"
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content">
+
+	<TextView
+    	android:gravity="left"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Level "/>
+        
+  	<TextView
+       	android:id="@+id/towerLevel"
+    	android:gravity="left"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="1 "/>
+
+    <TextView
+    	android:id="@+id/towerType"
+    	android:gravity="right"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=" Tower"/>
+        
+
+           
+</LinearLayout>
+
+<LinearLayout
+	android:orientation="horizontal"
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content">
+
+	<TextView
+    	android:gravity="left"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Range: "/>
+
+    <TextView
+    	android:id="@+id/towerRange"
+    	android:gravity="right"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="range"/>
+           
+</LinearLayout>
+
+<LinearLayout
+	android:orientation="horizontal"
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content">
+
+	<TextView
+    	android:gravity="left"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Damage: "/>
+
+    <TextView
+    	android:id="@+id/towerDamage"
+    	android:gravity="right"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="damage"/>
+           
+</LinearLayout>
+
+<LinearLayout
+	android:orientation="horizontal"
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content">
+
+	<TextView
+    	android:gravity="left"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Fire Rate: "/>
+
+    <TextView
+    	android:id="@+id/towerRate"
+    	android:gravity="right"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Rate"/>
+           
+</LinearLayout>
+
+<LinearLayout
+	android:orientation="horizontal"
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content">
+    
+    <TextView
+    	android:gravity="left"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Upgrade $: "/>
+    
+    
+    <TextView
+    	android:id="@+id/towerCost"
+    	android:gravity="right"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=" Cost"/>
+        
+</LinearLayout>
+
+<LinearLayout
+	android:layout_gravity="center_horizontal"
+	android:orientation="horizontal"
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content">
+
+	<ImageButton
+		android:id="@+id/popupButton0"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_margin="2dip"
+	    android:background="@drawable/selector_pure"/>
+	        
+	<ImageButton
+		android:id="@+id/popupButton1"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	   	android:layout_margin="2dip"
+	    android:background="@drawable/selector_fire_and_earth"/>  	
+    
+</LinearLayout>	
+
+<LinearLayout
+	android:orientation="horizontal"
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content">
+
+	<ImageButton
+		android:id="@+id/popupButton2"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_margin="2dip"
+	    android:background="@drawable/selector_fire_and_air"/>  
+	    		
+	<ImageButton
+		android:id="@+id/popupButton3"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_margin="2dip"
+	    android:background="@drawable/selector_fire_and_water"/>
+
+</LinearLayout>
+
+<LinearLayout
+	android:orientation="horizontal"
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content">	    	
+		
+	<ImageButton
+		android:id="@+id/popupButton4"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_margin="2dip"
+	    android:background="@drawable/selector_accept_upgrade"/>
+	    
+	<ImageButton
+		android:id="@+id/popupButton5"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_margin="2dip"
+	    android:background="@drawable/selector_sell"/>
+
+</LinearLayout>
+
+</LinearLayout>

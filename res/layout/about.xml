@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="vertical"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent"> 
+ 
+
+<TextView 
+	android:layout_width="fill_parent" 
+    android:layout_height="wrap_content" 
+    android:layout_marginTop="15dp"
+    android:text="About"
+    android:textSize="18dp"
+    android:textStyle="bold"
+	android:textColor="#FFFFFFFF"/>
+
+<TextView 
+	android:layout_width="fill_parent" 
+    android:layout_height="wrap_content" 
+    android:layout_marginTop="5dp"
+    android:layout_marginLeft="15dp"
+    android:text="Elemental TD is based upon the four elements - Air, Water, Earth, and Fire."
+    android:textSize="10dp"
+    android:textStyle="bold"/>
+	
+<TextView 
+	android:layout_width="fill_parent" 
+    android:layout_height="wrap_content" 
+    android:layout_marginTop="15dp"
+    android:text="Building Towers"
+    android:textSize="18dp"
+    android:textStyle="bold"
+	android:textColor="#FFFFFFFF"/>
+
+<TextView 
+	android:layout_width="fill_parent" 
+    android:layout_height="wrap_content"
+    android:layout_marginTop="5dp"
+    android:layout_marginLeft="15dp"
+    android:text="Players will be able to build towers from each element, and also combine elements to form hybrid towers."
+    android:textSize="10dp"
+    android:textStyle="bold"/>
+	
+<TextView 
+	android:layout_width="fill_parent" 
+    android:layout_height="wrap_content" 
+    android:layout_marginTop="15dp"
+    android:text="Levels"
+    android:textSize="18dp"
+    android:textStyle="bold"
+	android:textColor="#FFFFFFFF"/>
+	
+<TextView 
+	android:layout_width="fill_parent" 
+    android:layout_height="wrap_content"
+    android:layout_marginTop="5dp"
+    android:layout_marginLeft="15dp" 
+    android:text="Towers can be leveled up three times (to a max of level 4)."
+    android:textSize="10dp"
+    android:textStyle="bold"/>
+	
+<TextView 
+	android:layout_width="fill_parent" 
+    android:layout_height="wrap_content" 
+    android:layout_marginTop="15dp"
+    android:text="Tower Upgrades"
+    android:textSize="18dp"
+    android:textStyle="bold"
+	android:textColor="#FFFFFFFF"/>
+	
+<TextView 
+	android:layout_width="fill_parent" 
+    android:layout_height="wrap_content"
+    android:layout_marginTop="5dp"
+    android:layout_marginLeft="15dp"
+    android:text="Elements can be combined into a hybrid tower starting at level two, assuming the player has acquired the elements required to build the tower."
+    android:textSize="10dp"
+    android:textStyle="bold"/>
+   
+</LinearLayout>
+
+

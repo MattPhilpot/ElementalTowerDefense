@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/spawnAir"
+     	android:title="Summon Wind Next" />
+     	
+   	<item android:id="@+id/spawnWater"
+        android:title="Summon Water Next" />
+        
+    <item android:id="@+id/spawnEarth"
+        android:title="Summon Earth Next" />
+        
+   	<item android:id="@+id/spawnFire"
+        android:title="Summon Fire Next" />
+</menu>
